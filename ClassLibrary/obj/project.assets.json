@@ -1,33 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      }
-    }
+    "net6.0-windows7.0": {}
   },
-  "libraries": {
-    "ClassLibrary/1.0.0": {
-      "type": "project",
-      "path": "../ClassLibrary/ClassLibrary.csproj",
-      "msbuildProject": "../ClassLibrary/ClassLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
-      "ClassLibrary >= 1.0.0"
-    ]
+    "net6.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\ktybi\\.nuget\\packages\\": {}
@@ -35,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ktybi\\source\\repos\\Function_Drawer\\Function_Drawer\\Function_Drawer.csproj",
-      "projectName": "Function_Drawer",
-      "projectPath": "C:\\Users\\ktybi\\source\\repos\\Function_Drawer\\Function_Drawer\\Function_Drawer.csproj",
+      "projectUniqueName": "C:\\Users\\ktybi\\source\\repos\\Function_Drawer\\ClassLibrary\\ClassLibrary.csproj",
+      "projectName": "ClassLibrary",
+      "projectPath": "C:\\Users\\ktybi\\source\\repos\\Function_Drawer\\ClassLibrary\\ClassLibrary.csproj",
       "packagesPath": "C:\\Users\\ktybi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ktybi\\source\\repos\\Function_Drawer\\Function_Drawer\\obj\\",
+      "outputPath": "C:\\Users\\ktybi\\source\\repos\\Function_Drawer\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ktybi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,11 +33,7 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "C:\\Users\\ktybi\\source\\repos\\Function_Drawer\\ClassLibrary\\ClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\ktybi\\source\\repos\\Function_Drawer\\ClassLibrary\\ClassLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
